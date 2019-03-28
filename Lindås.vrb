@@ -1,0 +1,9 @@
+\frametitle{Making scenarios}
+\includegraphics[scale=0.45]{PresentationEntityGraph}
+\begin{semiverbatim}
+	A 2 year old has arrived at the
+	emergency clinic.
+	She has a history of cough,
+	is wheezing
+	and is not alert but verbal.
+\end{semiverbatim}
