@@ -1,0 +1,200 @@
+\documentclass{beamer}
+
+\usepackage{hyperref}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{tabularx}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\setbeamertemplate{navigation symbols}{}
+
+\begin{document}
+	
+	\begin{frame}{Gamification of Clinical Practice Guidelines - 1}
+	\begin{itemize}
+		\item A learning tool to train health workers and medical students.
+		\item So what is Clinical Practice Guidelines?
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Introduction - 2}
+CPGS formalizes research, and is validated for use in treatment.
+\begin{itemize}
+	\item 
+	\item We are weighing benefits and harm to each other.
+	\item All patients gets the same treatment for the same condition.
+	\item Since formalized, better use of resources, use cheaper medicine, work more efficient, higher quality.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Introduction - 3}
+\begin{itemize}
+	\item  Lack of self-efficacy: the don't believe in themselves that they execute the instructions in the guideline with high quality. 
+	\item +++: Lack of agreement with the content, Lack of outcome expectancy, Inertia of previous practice. 
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Norwegian Guideline - 4}
+\begin{itemize}
+	\item Large Guidelines. 400 pages.
+	\item This one is used for emergency clinics in Norway.
+	\item Wall of text
+	\item Symptoms left, treatment right.
+	\item Not good at point of care. We can improve.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Research questions - 5}
+\begin{itemize}
+	\item Adaptable to the learner.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Approach - 6}
+I have done iterations and evaluations.
+\end{frame}
+
+
+\begin{frame}{Gamification of Clinical Practice Guidelines - 7}
+\begin{itemize}
+	\item Multiple-try with feedback. Multiple attempts to get a question right and the feedback is right or wrong.
+	\item Problem with mulitple-try  with feedback: bad or unmotivated students will click randomly.
+	\item Solution: a button where you ccan ontinue without selecting the correct answer.
+	\item Small penalty and large reward motivates to revise an incorrect answer.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Possible asthma in paediatrics - 8}
+\begin{itemize}
+	\item Assessment, get an idea of what diagnosis a patient may have.
+	\item Diagnosis, strengthen your assumption and pick a severity.
+	\item Management, treatment and procedure.
+	\item Evaluation and act on the evaluation.
+	\item What the patient shoud do on his own and follow-up.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Workflow graph - 9}
+\begin{itemize}
+	\item It's the flow of the clinical encounter.
+	\item Based on the guideline.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Entity graph - 10}
+\begin{itemize}
+	\item This is a skeleton, an excerpt to keep the complexity down and keep it more compact.
+	\item It represents the patient at a given time in the clinical encounter.
+	\item You give the patient medication, and hopefully the symptoms in the graph has changed when you evaluate.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Making scenarios - 11}
+\begin{itemize}
+	\item Here we show the detail level of the entity graph (patient).
+	\item We are using templates to create narratives.
+	\item Tags which refer to vertices in the graph. Both in template and answer key.
+	\item Can use the same template with other graphs to make new narratives with matching answer key.
+	\item Can also reuse the graph on other templates.
+	\item Problem: The values can't be directly printed in the narrative. What is 24? What is True? V?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Making scenarios - 12}
+\begin{itemize}
+\item Attach a presentation vertex to all values.
+\item If a vertex doesn't have a presentation, simply return the value.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Dynamic Content Management - 13}
+\begin{itemize}
+	\item A way to control the content flow in the application.
+	\item Instead of every student going through the same learning material in the same way, we try to adapt it to the individual learner.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Dynamic Content Management - 14}
+\begin{itemize}
+	\item We split the content in relation to the clinical encounter (workflow model).
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Dynamic Content Management - 15}
+We have identified
+\begin{itemize}
+	\item  the knowledge units.
+	\item the dependency between the knowledge units.
+	\item expressed the dependency as a prerequisite.
+\end{itemize}
+Need to learn how to diagnise and treat a patient, before you can evaluate the treatment and act.
+\end{frame}
+
+\begin{frame}{Dynamic Content Management - 16}
+\begin{itemize}
+	\item The student can finish assessment, diagnosis or management in any order he wants.
+	\item Have to complete all categories at one level to be able to progress to the next level.
+	\item The detail level of the questions increases for each level.
+	\item Demonstrate learning map and student map. 
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Demonstration - 17}
+\begin{itemize}
+	\item Pick a quiz.
+	\item The difficulties shows where the student is in the learning map.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Demonstration - 18}
+\begin{itemize}
+	\item Scenario.
+	\item Assessment.
+	\item Multiple choice.
+	\item Feedback.
+	\item Shows an explanation when correct.
+	\item Wheeze.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Demonstration - 19}
+\begin{itemize}
+	\item The scenario continues.
+	\item Diagnosis.
+	\item Oxygen saturation <90\%
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Demonstration - 20}
+\begin{itemize}
+	\item Management.
+	\item Prednisolone and oxygen.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Demonstration - 21}
+\begin{itemize}
+	\item Follow-up. Asks about prednisolone.
+	\item Can try again. Gets penalty for every wrong attempt.
+	\item Can choose to give up, see the answer and continue, but looses the reward.
+	\item We want the user to encourage the user to revise the question.
+	\item 5 days.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Demonstration - 22}
+\begin{itemize}
+	\item We did very well and our position in the learning map is updated.
+	\item We still have to redo follow-up before we can continue to level 3.
+	\item The graph shows the score in each individual category as bars. The line is the passing condition in each category.
+	\item We didn't pass follow-up.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Evaluation - 23}
+The evaluation needs to be scheduled.
+
+Will do whatever we have time for.
+\end{frame}
+\end{document}

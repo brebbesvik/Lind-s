@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.28)  2 APR 2019 22:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.28)  2 APR 2019 22:54
 entering extended mode
-**./Lindås.tex
-(Lindås.tex
+**./manuscript.tex
+(manuscript.tex
 LaTeX2e <2018-12-01>
 ("C:\Program Files\MiKTeX 2.9\tex/latex/beamer\beamer.cls"
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
@@ -667,8 +667,8 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 ("C:\Program Files\MiKTeX 2.9\tex/latex/beamer\beamercolorthemeorchid.sty")
 ("C:\Program Files\MiKTeX 2.9\tex/latex/beamer\beamerinnerthemerounded.sty")
 ("C:\Program Files\MiKTeX 2.9\tex/latex/beamer\beamerouterthemeinfolines.sty"))
-(Lindås.aux)
-\openout1 = `Lindås.aux'.
+(manuscript.aux)
+\openout1 = `manuscript.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
@@ -761,9 +761,9 @@ LaTeX Info: Redefining \ref on input line 12.
 LaTeX Info: Redefining \pageref on input line 12.
 LaTeX Info: Redefining \nameref on input line 12.
 
-(Lindås.out) (Lindås.out)
+(manuscript.out) (manuscript.out)
 \@outlinefile=\write5
-\openout5 = `Lindås.out'.
+\openout5 = `manuscript.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 12.
@@ -841,375 +841,85 @@ Dictionary: translator-numbers-dictionary, Language: English
 ("C:\Program Files\MiKTeX 2.9\tex/latex/translator\translator-theorem-dictionar
 y-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
-) (Lindås.nav)
+) (manuscript.nav) [1
 
-Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 15.
+{C:/Users/Ben/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
 
+] [3
 
-Package hyperref Warning: Option `pdfsubject' has already been used,
-(hyperref)                setting the option has no effect on input line 18.
+] [4
 
+] [5
 
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+] [6
 
-[1
+] [7
 
-{C:/Users/Ben/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+] [8
 
-[2
+] [9
 
-]
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+] [10
 
-[3
+] [11
+
+] [12
+
+] [13
 
 ]
-<images/NorwayCPG.pdf, id=44, 1083.42155pt x 513.83116pt>
-File: images/NorwayCPG.pdf Graphic file (type pdf)
-<use images/NorwayCPG.pdf>
-Package pdftex.def Info: images/NorwayCPG.pdf  used on input line 52.
-(pdftex.def)             Requested size: 346.70198pt x 164.42932pt.
-
-Overfull \hbox (4.40668pt too wide) in paragraph at lines 52--52
-[][]  
- []
-
-
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[4
-
- <./images/NorwayCPG.pdf>]
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[5
-
-]
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[6
-
-]
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[7
-
-]
-<images/KenyaCPG.pdf, id=85, 763.77551pt x 542.50677pt>
-File: images/KenyaCPG.pdf Graphic file (type pdf)
-<use images/KenyaCPG.pdf>
-Package pdftex.def Info: images/KenyaCPG.pdf  used on input line 91.
-(pdftex.def)             Requested size: 343.6958pt x 244.1258pt.
-
-Overfull \hbox (1.4005pt too wide) in paragraph at lines 91--91
-[][]  
- []
-
-
-Overfull \vbox (15.0552pt too high) detected at line 91
- []
-
-
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[8
-
- <./images/KenyaCPG.pdf>]
-<images/WorkflowGraph.pdf, id=253, 712.6625pt x 210.7875pt>
-File: images/WorkflowGraph.pdf Graphic file (type pdf)
-<use images/WorkflowGraph.pdf>
-Package pdftex.def Info: images/WorkflowGraph.pdf  used on input line 96.
-(pdftex.def)             Requested size: 313.57246pt x 92.74678pt.
-
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[9
-
- <./images/WorkflowGraph.pdf>]
-<images/SimpleEntityGraph.pdf, id=265, 682.55pt x 451.6875pt>
-File: images/SimpleEntityGraph.pdf Graphic file (type pdf)
-<use images/SimpleEntityGraph.pdf>
-Package pdftex.def Info: images/SimpleEntityGraph.pdf  used on input line 101.
-(pdftex.def)             Requested size: 307.14467pt x 203.25749pt.
-
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[10
-
- <./images/SimpleEntityGraph.pdf>]
-\openout4 = `Lindås.vrb'.
-
- (Lindås.vrb
-<images/EntityInstanceGraph.pdf, id=277, 1023.825pt x 311.1625pt>
-File: images/EntityInstanceGraph.pdf Graphic file (type pdf)
-<use images/EntityInstanceGraph.pdf>
-Package pdftex.def Info: images/EntityInstanceGraph.pdf  used on input line 3.
-(pdftex.def)             Requested size: 358.34412pt x 108.90851pt.
-
-Overfull \hbox (16.04881pt too wide) in paragraph at lines 2--4
-[]  
- []
-
-)
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[11
-
- <./images/EntityInstanceGraph.pdf>]
-\openout4 = `Lindås.vrb'.
-
- (Lindås.vrb
-<images/PresentationEntityGraph.pdf, id=289, 782.925pt x 240.9pt>
-File: images/PresentationEntityGraph.pdf Graphic file (type pdf)
-<use images/PresentationEntityGraph.pdf>
-Package pdftex.def Info: images/PresentationEntityGraph.pdf  used on input line
- 3.
-(pdftex.def)             Requested size: 352.313pt x 108.40399pt.
-
-Overfull \hbox (10.0177pt too wide) in paragraph at lines 2--4
-[]  
- []
-
-)
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[12
-
- <./images/PresentationEntityGraph.pdf>]
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[13
-
-]
-File: images/WorkflowGraph.pdf Graphic file (type pdf)
-<use images/WorkflowGraph.pdf>
-Package pdftex.def Info: images/WorkflowGraph.pdf  used on input line 146.
-(pdftex.def)             Requested size: 313.57246pt x 92.74678pt.
-
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
 [14
 
-]
-<images/Knowledge.pdf, id=313, 501.875pt x 220.825pt>
-File: images/Knowledge.pdf Graphic file (type pdf)
-<use images/Knowledge.pdf>
-Package pdftex.def Info: images/Knowledge.pdf  used on input line 151.
-(pdftex.def)             Requested size: 250.93687pt x 110.41222pt.
+] [15
 
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+] [16
 
-[15
+] [17
 
- <./images/Knowledge.pdf>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 169.
+] [18
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 169.
+] [19
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 169.
+] [20
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/sansmathaccent\ot1mathkerncmss.fd"
-File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-)
-Overfull \hbox (1.42955pt too wide) in paragraph at lines 169--169
-[]|\OT1/cmss/m/n/10.95 Level| 
- []
+] [21
 
+] [22
 
-Underfull \hbox (badness 4981) in paragraph at lines 169--169
-[]|\OT1/cmss/m/n/10.95 Detailed sce-
- []
-
-
-Underfull \hbox (badness 4981) in paragraph at lines 169--169
-[]|\OT1/cmss/m/n/10.95 Detailed sce-
- []
-
-
-Underfull \hbox (badness 4981) in paragraph at lines 169--169
-[]|\OT1/cmss/m/n/10.95 Detailed sce-
- []
-
-
-Underfull \hbox (badness 4981) in paragraph at lines 169--169
-[]|\OT1/cmss/m/n/10.95 Detailed sce-
- []
-
-
-Overfull \hbox (4.80537pt too wide) in paragraph at lines 169--169
- [] 
- []
-
-
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[16
-
-]
-<images/Montage1.png, id=330, 1668.17041pt x 1393.99144pt>
-File: images/Montage1.png Graphic file (type png)
-<use images/Montage1.png>
-Package pdftex.def Info: images/Montage1.png  used on input line 174.
-(pdftex.def)             Requested size: 266.91272pt x 223.04318pt.
-
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[17
-
- <./images/Montage1.png>]
-<images/Montage2.png, id=339, 1668.17041pt x 1393.99144pt>
-File: images/Montage2.png Graphic file (type png)
-<use images/Montage2.png>
-Package pdftex.def Info: images/Montage2.png  used on input line 177.
-(pdftex.def)             Requested size: 266.91272pt x 223.04318pt.
-
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[18
-
- <./images/Montage2.png>]
-<images/Montage3.png, id=347, 1668.17041pt x 1393.99144pt>
-File: images/Montage3.png Graphic file (type png)
-<use images/Montage3.png>
-Package pdftex.def Info: images/Montage3.png  used on input line 180.
-(pdftex.def)             Requested size: 266.91272pt x 223.04318pt.
-
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[19
-
- <./images/Montage3.png>]
-<images/Montage4.png, id=356, 1668.17041pt x 1393.99144pt>
-File: images/Montage4.png Graphic file (type png)
-<use images/Montage4.png>
-Package pdftex.def Info: images/Montage4.png  used on input line 183.
-(pdftex.def)             Requested size: 266.91272pt x 223.04318pt.
-
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[20
-
- <./images/Montage4.png>]
-<images/Montage5.png, id=364, 2517.52917pt x 1393.99144pt>
-File: images/Montage5.png Graphic file (type png)
-<use images/Montage5.png>
-Package pdftex.def Info: images/Montage5.png  used on input line 186.
-(pdftex.def)             Requested size: 352.45169pt x 195.15747pt.
-
-Overfull \hbox (10.15639pt too wide) in paragraph at lines 186--186
-[][]  
- []
-
-
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[21
-
- <./images/Montage5.png>]
-<images/Montage6.png, id=372, 1668.17041pt x 1393.99144pt>
-File: images/Montage6.png Graphic file (type png)
-<use images/Montage6.png>
-Package pdftex.def Info: images/Montage6.png  used on input line 189.
-(pdftex.def)             Requested size: 266.91272pt x 223.04318pt.
-
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[22
-
- <./images/Montage6.png>]
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[23
+] [23
 
 ]
 \tf@nav=\write6
-\openout6 = `Lindås.nav'.
+\openout6 = `manuscript.nav'.
 
 \tf@toc=\write7
-\openout7 = `Lindås.toc'.
+\openout7 = `manuscript.toc'.
 
 \tf@snm=\write8
-\openout8 = `Lindås.snm'.
+\openout8 = `manuscript.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 203.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 203.
- (Lindås.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 203.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 203.
-Package rerunfilecheck Info: File `Lindås.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
+ (manuscript.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
+Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 17459 strings out of 492945
- 333271 string characters out of 3135519
- 407831 words of memory out of 3000000
- 20893 multiletter control sequences out of 15000+200000
- 10863 words of font info for 40 fonts, out of 3000000 for 9000
+ 17171 strings out of 492945
+ 325990 string characters out of 3135519
+ 404843 words of memory out of 3000000
+ 20647 multiletter control sequences out of 15000+200000
+ 5152 words of font info for 19 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,15n,59p,776b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,15n,59p,779b,463s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Lindås.pdf (23 pages, 2066138 bytes).
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb>
+Output written on manuscript.pdf (23 pages, 76046 bytes).
 PDF statistics:
- 413 PDF objects out of 1000 (max. 8388607)
+ 183 PDF objects out of 1000 (max. 8388607)
  47 named destinations out of 1000 (max. 500000)
- 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
