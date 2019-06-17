@@ -14,7 +14,7 @@
 \title{Gamification of Clinical Practice Guidelines}
 \author{Ben-Richard Ebbesvik}
 \institute{Western Norway University of Applied Sciences \newline University of Bergen}
-\date{3rd of April 2019}
+\date{June 2019}
 \subject{Master thesis}
 \frame{\titlepage}
 
@@ -22,9 +22,9 @@
 \begin{frame}{Introduction}
 Clinical Practice Guidelines are documents that contain recommendations to assist clinicians providing optimized health care, based on latest evidence. 
 
-Advantages:
+Some advantages:
 \begin{itemize}
-	\item Clinicians don't have to search through and review an overwhelming amount of research articles to keep up to date with the latest best evidence .
+	\item Clinicians don't have to search through and review an overwhelming amount of research articles to keep up to date with the latest best evidence.
 	\item Improved quality of health care (benefits and harm).
 	\item Reduce practice variability.
 	\item Reduce cost of health care.
@@ -40,8 +40,8 @@ Despite the advantages, Clinical Practice Guidelines have had an limited effect 
 	\item Lack of awareness.
 	\item Lack of familiarity.
 	\item  Lack of self-efficacy.
-	\item Not easy to use, inconvenient, cumbersome
-	\item +++
+	\item Inertia of previous practice.
+	\item Not easy to use, inconvenient, cumbersome.
 \end{itemize}
 Example: Guidelines for the Diagnosis and Management of Asthma consists of 440 pages.
 %Our contribution: a game.
@@ -54,14 +54,10 @@ Example: Guidelines for the Diagnosis and Management of Asthma consists of 440 p
 
 \begin{frame}{Research questions}
 \begin{itemize}
-		%\item Based on clinical guidelines, can we make a reusable data structure representing respiratory diseases for use in serious games?
-		\item Based on clinical guidelines, can we make a data structure which is easy to implement in the system, as well as adaptable? 
-	
-			\item How to use such a model for generating and testing case based multiple choice questions and answer elements?
-			%\item Can we use the data model to structure the learning content such that it is adapted to the current knowledge of the individual learner?
-			
-	
-	\item How can we model the work-flow of a clinical encounter, a patient at a given point in the clinical encounter, and a student at the current point in his learning process. How to represent these?	
+	\item \textbf{RQ1:} Based on clinical guidelines, how can we define and represent a generic data structure that can be used to implement applications such as online guidelines or training games for such guidelines, and where applications can adapt to the level of their users?
+	\item \textbf{RQ2:} Can the generic data structure in RQ1 be used to generate a specific data model for another domain such as paediatric asthma?
+	\item \textbf{RQ3:} How can we use the data model in RQ2 to implement a game for guideline training that can adapt to the level and progression  of users?
+	\item \textbf{RQ4:} Is the guideline meta model at an abstraction level such that it can be used for other guidelines? 
 \end{itemize}
 \end{frame}
 
@@ -79,7 +75,7 @@ Design science
 
 \begin{frame}{Gamification of Clinical Practice Guidelines}
 \begin{itemize}
-	\item A game in a quiz format for learning the content of CPGs.
+	\item A mobile game in a quiz format for learning the content of CPGs.
 	\item Multiple-choice and multiple-try with feedback.
 	\item Adaptive to the individual learner.
 	\item Intended for medical students and clinicians.
@@ -90,13 +86,17 @@ Design science
 \includegraphics[scale=0.45]{KenyaCPG}
 \end{frame}
 
+\begin{frame}{Architecture}
+\includegraphics[scale=0.35]{Architecture}
+\end{frame}
+
 \begin{frame}{Workflow graph}
 The workflow graph is a model of the different steps through a clinical encounter.
 \includegraphics[scale=0.44]{WorkflowGraph}
 \end{frame}
 
 \begin{frame}{Excerpt of the entity graph}
-The entity graph is a model of a patient at a given time.
+The entity graph is a model of the patient profile at a specific point in the clinical encounter.
 \includegraphics[scale=0.45]{SimpleEntityGraph}
 \end{frame}
 
@@ -127,6 +127,14 @@ Adding presentation vertices to the instance.
 \end{semiverbatim}
 \end{frame}
 
+\begin{frame}{Entity- and workflow model working together}
+\includegraphics[scale=0.40]{Integrated1}
+\end{frame}
+
+\begin{frame}{Entity- and workflow model working together	}
+\includegraphics[scale=0.45]{Integrated2}
+\end{frame}
+
 \begin{frame}{Dynamic Content Management}
 \begin{itemize}
 	\item Adaptive learning. Students will solve problems which are suited to their level of knowledge.
@@ -154,7 +162,7 @@ Knowledge Map shows the dependencies in the learning process.
 \begin{table}[h!]
 \begin{tabular}{|m{2em}|m{6em}|m{6em}|m{6em}|m{6em}|}
 	\hline
-	 Level & Assessment & Diagnosis & Management & Follow-up \\
+	 Level & Assessment & Diagnosis & Management & Evaluation \\
 	\hline
 	1  & Factual & Factual & Factual & - \\
 	2 & Scenario & Scenario & Scenario & Scenario \\
@@ -189,15 +197,25 @@ Knowledge Map shows the dependencies in the learning process.
 \end{frame}
 
 \begin{frame}{Evaluation}
-Planned evaluation
 \begin{itemize}
-	\item Through user tests, let clinicians or medical students determine the relevance of the artefact.
+	\item Through the application and the implementation we showed that:
 	\begin{itemize}
-		\item Demonstrate how the learning content is adapted to the learners current knowledge level.
+		\item We can define a generic data structure that can be used to implement applications. such as guideline training games.
+		\item The generic data structure can be used to generate a specific data model.
+		\item The data model can adapt to the knowledge and knowledge progression of users.
 	\end{itemize}
-	\item Demonstrate that the model can be used to represent other respiratory diseases.
-	\item Demonstrate generation of multiple choice questions and answer elements.
+	\item Through user tests, specialist nurses and medical doctors determined the relevance of the artefact.
+	\item We have demonstrated that the model can be used to represent other respiratory diseases by modelling paediatric pneumonia.
+\end{itemize}
+\end{frame}
 
+\begin{frame}{Related work}
+\begin{itemize}
+	\item Ontology-Based Generation of Medical, Multi-term MCQs (Leo, Kurdi, Matentzoglu et al 2019).
+	\item Dynamic content manager - A new conceptual model for e-learning (Kristensen, Lamo, Hinna, Hole 2009).
+	\item Coordination of multiple metamodels, with application to healthcare systems (Rabbi, Lamo, MacCaull)
+	\item A	diagrammatic formalisation of mof-based modelling languages (Rutle, Rossini, Lamo, Wolter, 2009).
+	\item The effects of different forms of	feedback on fuzzy and verbatim memory of science principles (Clariana, Koul 2006).
 \end{itemize}
 \end{frame}
 \end{document}

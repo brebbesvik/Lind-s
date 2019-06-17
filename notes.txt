@@ -1,0 +1,18 @@
+Automatisk generering - unngår at studenter husker svaret på gamle spørsmål
+
+Personalised learning - personalised questions, taking account learner ability and preferences. Learners self validate their knowledge
+
+
+EMCQG/EMMET - invoke higher order thinking and problem solving skills. Questions mimmic real life-scenarios
+
+question difficulty, discrimination and guessability are identified through statistical analasyis of responses to a particular question
+
+higher order thinkinking
+
+kan lage relevante distractions gjennom relasjoner. distraksjonen skal være en hovedstad på et gitt kontinent 
+
+Bruk av SNOMED-CT og UMLS
+
+Bruk av templates med placeholders
+
+Fire medical templates er brukt. What is the most likely diagnosis. What is the drug of choice. What is the most likely clinical finding. What is the differential diagnosis.
