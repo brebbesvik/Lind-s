@@ -57,7 +57,7 @@ Example: Guidelines for the Diagnosis and Management of Asthma consists of 440 p
 	\item \textbf{RQ1:} Based on clinical guidelines, how can we define and represent a generic data structure that can be used to implement applications such as online guidelines or training games for such guidelines, and where applications can adapt to the level of their users?
 	\item \textbf{RQ2:} Can the generic data structure in RQ1 be used to generate a specific data model for another domain such as paediatric asthma?
 	\item \textbf{RQ3:} How can we use the data model in RQ2 to implement a game for guideline training that can adapt to the level and progression  of users?
-	\item \textbf{RQ4:} Is the guideline meta model at an abstraction level such that it can be used for other guidelines? 
+	\item \textbf{RQ4:} Is the guideline metamodel at an abstraction level such that it can be used for other guidelines? 
 \end{itemize}
 \end{frame}
 
@@ -65,11 +65,10 @@ Example: Guidelines for the Diagnosis and Management of Asthma consists of 440 p
 \begin{frame}{Approach}
 \begin{block}{Design science}
 \begin{itemize}
-	\item Problem: CPGs have proven to have a great potential, but are not used enough.
-	\item Design an artefact that will contribute to more use of CPGs.
-	\item Evaluation of the artefact will give us more knowledge around the domain and challenges. The research will come from the design. Improve and adjust the artefact accordingly. 
-	\item Iterate and increment.
-	\item Get more knowledge for medicine- and computer science. Scientific contribution.
+	\item \textbf{Problem:} CPGs have proven to have a great potential, but are not used enough.
+	\item \textbf{Design an artefact} that will contribute to more use of clinical guidelines.
+	\item \textbf{Iterations:} Evaluation of the artefact will give us more knowledge around the domain and challenges. Improve and adjust the artefact accordingly. The research will appear from the design.
+	\item \textbf{Contribution:} Scientific contribution to health informatics. The artefact will provide value to the medical community.
 \end{itemize}
 \end{block}
 \end{frame}
@@ -116,6 +115,19 @@ emergency clinic.
 She <\%Patient.givesHistory.Cough\%> 
 <\%Patient.undergoesExamination.Wheeze\%>
 <\%Patient.undergoesExamination.Consciousness\%>
+\end{semiverbatim}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Making scenarios, answer keys, distractions}
+An instance of the entity model.
+\includegraphics[scale=0.35]{EntityInstanceGraph}
+\begin{semiverbatim}
+	A 24 old has arrived at the 
+	emergency clinic.  
+	She True
+	True
+	V
 \end{semiverbatim}
 \end{frame}
 
@@ -201,43 +213,59 @@ Knowledge Map shows the dependencies in the learning process.
 \includegraphics[scale=0.16]{Montage6}
 \end{frame}
 
+\begin{frame}{Evaluation - Contribution to medical domain}
+\begin{block}{User tests:}
+	\begin{itemize}
+		\item Specialist nurses in respiratory medicine were playing one level of the game.
+		\item Medical doctors were playing the whole game and could evaluate the learning model.
+	\end{itemize}
+\end{block}
+\begin{block}{Findings:}
+	\begin{itemize}
+		\item Great value for medical students and nurses. Need much more detailed questions for medical doctors.
+		\item Adjusting the detail level to make harder questions is the right approach.
+		\item Multiple-try with hints was very much appreciated by the clinicians.
+		\item Scenario-based questions was positive, but some details were missed and the categories could be clearer.
+	\end{itemize}
+\end{block}
+\end{frame}
+
 \begin{frame}{Evaluation - Research questions}
 \begin{itemize}
 	\item Through the application and the implementation we showed that:
 	\begin{itemize}
-		\item We can define a generic data structure that can be used to implement applications. such as guideline training games (RQ1).
-		\item The generic data structure can be used to generate a specific CPG (RQ2).
-		\item The data model can adapt to the knowledge and knowledge progression of users (RQ3).
+		\item We can define a generic data structure that can be used to implement applications. such as guideline training games \textbf{(RQ1)}.
+		\item The generic data structure can be used to generate a specific CPG \textbf{(RQ2)}.
+		\item The data model can adapt to the knowledge and knowledge progression of users \textbf{(RQ3)}.
 	\end{itemize}
-
-	\item We have demonstrated that the model can be used to represent other respiratory diseases by modelling paediatric pneumonia (RQ4).
+	\item We have demonstrated that the model can be used to represent other respiratory diseases by modelling paediatric pneumonia \textbf{(RQ4)}.
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Evaluation - Contribution to medical domain}
-\begin{block}{User tests:}
+\begin{frame}{Research paper}
 \begin{itemize}
-	\item Specialist nurses in respiratory medicine were playing one level of the game.
-	\item Medical doctors were playing the whole game and could evaluate the learning model.
+\item This thesis is part of a larger project.
+\item More about the project can be read in an article we published for ENASE 2019:
 \end{itemize}
+ \begin{block}{}A Model Driven Approach to the Development of Gamified Interactive Clinical Practice Guidelines
+\newline
+Nyameino, Rabbi, Ebbesvik, Were, Lamo (2019)
 \end{block}
+\end{frame}
 
-\begin{block}{Findings:}
+\begin{frame}{State of the art}
 \begin{itemize}
-	\item Great value for medical students and nurses. Need much more detailed questions for medical doctors.
-	\item Adjusting the detail level to make harder questions is the right approach.
-	\item Multiple-try with hints was very much appreciated by the clinicians.
-	\item Scenario-based questions was positive, but some details were missed and the categories could be clearer.
+	\item Ontology-Based Generation of Medical, Multi-term MCQs (Leo, Kurdi, Matentzoglu et al 2019).
+	\item A Model-Driven Approach to Clinical Practice Guidelines Representation and Evaluation Using Standards (Farkash, Timm, Waks 2013)
+	\item Models and mechanisms for implementing playful scenarios (Aouadi, Pernelle, Amar, Carro, Talbot 2016)
 \end{itemize}
-\end{block}
 \end{frame}
 
 \begin{frame}{Related work}
 \begin{itemize}
-	\item Ontology-Based Generation of Medical, Multi-term MCQs (Leo, Kurdi, Matentzoglu et al 2019).
 	\item Dynamic content manager - A new conceptual model for e-learning (Kristensen, Lamo, Hinna, Hole 2009).
-	\item Coordination of multiple metamodels, with application to healthcare systems (Rabbi, Lamo, MacCaull)
 	\item A	diagrammatic formalisation of mof-based modelling languages (Rutle, Rossini, Lamo, Wolter, 2009).
+	\item Coordination of multiple metamodels, with application to healthcare systems (Rabbi, Lamo, MacCaull).
 	\item The effects of different forms of	feedback on fuzzy and verbatim memory of science principles (Clariana, Koul 2006).
 \end{itemize}
 \end{frame}

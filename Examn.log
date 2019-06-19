@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.28)  19 JUN 2019 00:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.28)  19 JUN 2019 23:47
 entering extended mode
 **./Examn.tex
 (Examn.tex
@@ -914,10 +914,10 @@ Overfull \hbox (124.16882pt too wide) has occurred while \output is active
 <images/Architecture.pdf, id=90, 982.41676pt x 523.71483pt>
 File: images/Architecture.pdf Graphic file (type pdf)
 <use images/Architecture.pdf>
-Package pdftex.def Info: images/Architecture.pdf  used on input line 90.
+Package pdftex.def Info: images/Architecture.pdf  used on input line 89.
 (pdftex.def)             Requested size: 343.85101pt x 183.30292pt.
 
-Overfull \hbox (1.55571pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.55571pt too wide) in paragraph at lines 89--89
 [][]  
  []
 
@@ -932,15 +932,15 @@ Overfull \hbox (124.16882pt too wide) has occurred while \output is active
 <images/KenyaCPG.pdf, id=118, 763.77551pt x 542.50677pt>
 File: images/KenyaCPG.pdf Graphic file (type pdf)
 <use images/KenyaCPG.pdf>
-Package pdftex.def Info: images/KenyaCPG.pdf  used on input line 94.
+Package pdftex.def Info: images/KenyaCPG.pdf  used on input line 93.
 (pdftex.def)             Requested size: 343.6958pt x 244.1258pt.
 
-Overfull \hbox (1.4005pt too wide) in paragraph at lines 94--94
+Overfull \hbox (1.4005pt too wide) in paragraph at lines 93--93
 [][]  
  []
 
 
-Overfull \vbox (15.0552pt too high) detected at line 94
+Overfull \vbox (15.0552pt too high) detected at line 93
  []
 
 
@@ -954,7 +954,7 @@ Overfull \hbox (124.16882pt too wide) has occurred while \output is active
 <images/WorkflowGraph.pdf, id=286, 712.6625pt x 200.75pt>
 File: images/WorkflowGraph.pdf Graphic file (type pdf)
 <use images/WorkflowGraph.pdf>
-Package pdftex.def Info: images/WorkflowGraph.pdf  used on input line 101.
+Package pdftex.def Info: images/WorkflowGraph.pdf  used on input line 100.
 (pdftex.def)             Requested size: 313.57246pt x 88.33026pt.
 
 Overfull \hbox (124.16882pt too wide) has occurred while \output is active
@@ -967,10 +967,10 @@ Overfull \hbox (124.16882pt too wide) has occurred while \output is active
 <images/SimpleEntityGraph.pdf, id=298, 682.55pt x 451.6875pt>
 File: images/SimpleEntityGraph.pdf Graphic file (type pdf)
 <use images/SimpleEntityGraph.pdf>
-Package pdftex.def Info: images/SimpleEntityGraph.pdf  used on input line 106.
+Package pdftex.def Info: images/SimpleEntityGraph.pdf  used on input line 105.
 (pdftex.def)             Requested size: 307.14467pt x 203.25749pt.
 
-Overfull \vbox (1.38692pt too high) detected at line 106
+Overfull \vbox (1.38692pt too high) detected at line 105
  []
 
 
@@ -984,11 +984,11 @@ Overfull \hbox (124.16882pt too wide) has occurred while \output is active
 \openout4 = `Examn.vrb'.
 
  (Examn.vrb
-<images/EntityInstanceGraph.pdf, id=310, 1023.825pt x 311.1625pt>
+<images/EntityInstanceGraph.pdf, id=310, 1023.825pt x 331.2375pt>
 File: images/EntityInstanceGraph.pdf Graphic file (type pdf)
 <use images/EntityInstanceGraph.pdf>
 Package pdftex.def Info: images/EntityInstanceGraph.pdf  used on input line 3.
-(pdftex.def)             Requested size: 358.34412pt x 108.90851pt.
+(pdftex.def)             Requested size: 358.34412pt x 115.93484pt.
 
 Overfull \hbox (16.04881pt too wide) in paragraph at lines 2--4
 []  
@@ -1005,7 +1005,27 @@ Overfull \hbox (124.16882pt too wide) has occurred while \output is active
 \openout4 = `Examn.vrb'.
 
  (Examn.vrb
-<images/PresentationEntityGraph.pdf, id=322, 782.925pt x 240.9pt>
+File: images/EntityInstanceGraph.pdf Graphic file (type pdf)
+<use images/EntityInstanceGraph.pdf>
+Package pdftex.def Info: images/EntityInstanceGraph.pdf  used on input line 3.
+(pdftex.def)             Requested size: 358.34412pt x 115.93484pt.
+
+Overfull \hbox (16.04881pt too wide) in paragraph at lines 2--4
+[]  
+ []
+
+)
+Overfull \hbox (124.16882pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[13
+
+]
+\openout4 = `Examn.vrb'.
+
+ (Examn.vrb
+<images/PresentationEntityGraph.pdf, id=329, 782.925pt x 240.9pt>
 File: images/PresentationEntityGraph.pdf Graphic file (type pdf)
 <use images/PresentationEntityGraph.pdf>
 Package pdftex.def Info: images/PresentationEntityGraph.pdf  used on input line
@@ -1021,31 +1041,18 @@ Overfull \hbox (124.16882pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-[13
-
- <./images/PresentationEntityGraph.pdf>]
-<images/Integrated1.pdf, id=334, 813.0375pt x 582.175pt>
-File: images/Integrated1.pdf Graphic file (type pdf)
-<use images/Integrated1.pdf>
-Package pdftex.def Info: images/Integrated1.pdf  used on input line 137.
-(pdftex.def)             Requested size: 325.20924pt x 232.86588pt.
-
-Overfull \vbox (3.79529pt too high) detected at line 137
- []
-
-
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
 [14
 
- <./images/Integrated1.pdf>]
-<images/Integrated2.pdf, id=347, 742.775pt x 481.8pt>
-File: images/Integrated2.pdf Graphic file (type pdf)
-<use images/Integrated2.pdf>
-Package pdftex.def Info: images/Integrated2.pdf  used on input line 141.
-(pdftex.def)             Requested size: 334.24565pt x 216.80798pt.
+ <./images/PresentationEntityGraph.pdf>]
+<images/Integrated1.pdf, id=340, 813.0375pt x 582.175pt>
+File: images/Integrated1.pdf Graphic file (type pdf)
+<use images/Integrated1.pdf>
+Package pdftex.def Info: images/Integrated1.pdf  used on input line 149.
+(pdftex.def)             Requested size: 325.20924pt x 232.86588pt.
+
+Overfull \vbox (3.79529pt too high) detected at line 149
+ []
+
 
 Overfull \hbox (124.16882pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1053,19 +1060,24 @@ Overfull \hbox (124.16882pt too wide) has occurred while \output is active
 
 [15
 
- <./images/Integrated2.pdf>]
+ <./images/Integrated1.pdf>]
+<images/Integrated2.pdf, id=353, 742.775pt x 511.9125pt>
+File: images/Integrated2.pdf Graphic file (type pdf)
+<use images/Integrated2.pdf>
+Package pdftex.def Info: images/Integrated2.pdf  used on input line 153.
+(pdftex.def)             Requested size: 334.24565pt x 230.35849pt.
+
+Overfull \vbox (1.2879pt too high) detected at line 153
+ []
+
+
 Overfull \hbox (124.16882pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [16
 
-]
-File: images/WorkflowGraph.pdf Graphic file (type pdf)
-<use images/WorkflowGraph.pdf>
-Package pdftex.def Info: images/WorkflowGraph.pdf  used on input line 159.
-(pdftex.def)             Requested size: 313.57246pt x 88.33026pt.
-
+ <./images/Integrated2.pdf>]
 Overfull \hbox (124.16882pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1073,11 +1085,10 @@ Overfull \hbox (124.16882pt too wide) has occurred while \output is active
 [17
 
 ]
-<images/Knowledge.pdf, id=372, 501.875pt x 220.825pt>
-File: images/Knowledge.pdf Graphic file (type pdf)
-<use images/Knowledge.pdf>
-Package pdftex.def Info: images/Knowledge.pdf  used on input line 164.
-(pdftex.def)             Requested size: 250.93687pt x 110.41222pt.
+File: images/WorkflowGraph.pdf Graphic file (type pdf)
+<use images/WorkflowGraph.pdf>
+Package pdftex.def Info: images/WorkflowGraph.pdf  used on input line 171.
+(pdftex.def)             Requested size: 313.57246pt x 88.33026pt.
 
 Overfull \hbox (124.16882pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1085,50 +1096,63 @@ Overfull \hbox (124.16882pt too wide) has occurred while \output is active
 
 [18
 
+]
+<images/Knowledge.pdf, id=378, 501.875pt x 220.825pt>
+File: images/Knowledge.pdf Graphic file (type pdf)
+<use images/Knowledge.pdf>
+Package pdftex.def Info: images/Knowledge.pdf  used on input line 176.
+(pdftex.def)             Requested size: 250.93687pt x 110.41222pt.
+
+Overfull \hbox (124.16882pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[19
+
  <./images/Knowledge.pdf>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 182.
+LaTeX Font Info:    Try loading font information for U+msa on input line 194.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 182.
+LaTeX Font Info:    Try loading font information for U+msb on input line 194.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 182.
+line 194.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/sansmathaccent\ot1mathkerncmss.fd"
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-Overfull \hbox (1.42955pt too wide) in paragraph at lines 182--182
+Overfull \hbox (1.42955pt too wide) in paragraph at lines 194--194
 []|\OT1/cmss/m/n/10.95 Level| 
  []
 
 
-Underfull \hbox (badness 4981) in paragraph at lines 182--182
+Underfull \hbox (badness 4981) in paragraph at lines 194--194
 []|\OT1/cmss/m/n/10.95 Detailed sce-
  []
 
 
-Underfull \hbox (badness 4981) in paragraph at lines 182--182
+Underfull \hbox (badness 4981) in paragraph at lines 194--194
 []|\OT1/cmss/m/n/10.95 Detailed sce-
  []
 
 
-Underfull \hbox (badness 4981) in paragraph at lines 182--182
+Underfull \hbox (badness 4981) in paragraph at lines 194--194
 []|\OT1/cmss/m/n/10.95 Detailed sce-
  []
 
 
-Underfull \hbox (badness 4981) in paragraph at lines 182--182
+Underfull \hbox (badness 4981) in paragraph at lines 194--194
 []|\OT1/cmss/m/n/10.95 Detailed sce-
  []
 
 
-Overfull \hbox (4.80537pt too wide) in paragraph at lines 182--182
+Overfull \hbox (4.80537pt too wide) in paragraph at lines 194--194
  [] 
  []
 
@@ -1137,26 +1161,13 @@ Overfull \hbox (124.16882pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-[19
-
-]
-<images/Montage1.png, id=390, 1668.17041pt x 1393.99144pt>
-File: images/Montage1.png Graphic file (type png)
-<use images/Montage1.png>
-Package pdftex.def Info: images/Montage1.png  used on input line 187.
-(pdftex.def)             Requested size: 266.91272pt x 223.04318pt.
-
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
 [20
 
- <./images/Montage1.png>]
-<images/Montage2.png, id=399, 1668.17041pt x 1393.99144pt>
-File: images/Montage2.png Graphic file (type png)
-<use images/Montage2.png>
-Package pdftex.def Info: images/Montage2.png  used on input line 190.
+]
+<images/Montage1.png, id=396, 1668.17041pt x 1393.99144pt>
+File: images/Montage1.png Graphic file (type png)
+<use images/Montage1.png>
+Package pdftex.def Info: images/Montage1.png  used on input line 199.
 (pdftex.def)             Requested size: 266.91272pt x 223.04318pt.
 
 Overfull \hbox (124.16882pt too wide) has occurred while \output is active
@@ -1165,11 +1176,11 @@ Overfull \hbox (124.16882pt too wide) has occurred while \output is active
 
 [21
 
- <./images/Montage2.png>]
-<images/Montage3.png, id=407, 1668.17041pt x 1393.99144pt>
-File: images/Montage3.png Graphic file (type png)
-<use images/Montage3.png>
-Package pdftex.def Info: images/Montage3.png  used on input line 193.
+ <./images/Montage1.png>]
+<images/Montage2.png, id=405, 1668.17041pt x 1393.99144pt>
+File: images/Montage2.png Graphic file (type png)
+<use images/Montage2.png>
+Package pdftex.def Info: images/Montage2.png  used on input line 202.
 (pdftex.def)             Requested size: 266.91272pt x 223.04318pt.
 
 Overfull \hbox (124.16882pt too wide) has occurred while \output is active
@@ -1178,11 +1189,11 @@ Overfull \hbox (124.16882pt too wide) has occurred while \output is active
 
 [22
 
- <./images/Montage3.png>]
-<images/Montage4.png, id=415, 1668.17041pt x 1393.99144pt>
-File: images/Montage4.png Graphic file (type png)
-<use images/Montage4.png>
-Package pdftex.def Info: images/Montage4.png  used on input line 196.
+ <./images/Montage2.png>]
+<images/Montage3.png, id=413, 1668.17041pt x 1393.99144pt>
+File: images/Montage3.png Graphic file (type png)
+<use images/Montage3.png>
+Package pdftex.def Info: images/Montage3.png  used on input line 205.
 (pdftex.def)             Requested size: 266.91272pt x 223.04318pt.
 
 Overfull \hbox (124.16882pt too wide) has occurred while \output is active
@@ -1191,14 +1202,27 @@ Overfull \hbox (124.16882pt too wide) has occurred while \output is active
 
 [23
 
+ <./images/Montage3.png>]
+<images/Montage4.png, id=421, 1668.17041pt x 1393.99144pt>
+File: images/Montage4.png Graphic file (type png)
+<use images/Montage4.png>
+Package pdftex.def Info: images/Montage4.png  used on input line 208.
+(pdftex.def)             Requested size: 266.91272pt x 223.04318pt.
+
+Overfull \hbox (124.16882pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[24
+
  <./images/Montage4.png>]
-<images/Montage5.png, id=423, 2517.52917pt x 1393.99144pt>
+<images/Montage5.png, id=429, 2517.52917pt x 1393.99144pt>
 File: images/Montage5.png Graphic file (type png)
 <use images/Montage5.png>
-Package pdftex.def Info: images/Montage5.png  used on input line 199.
+Package pdftex.def Info: images/Montage5.png  used on input line 211.
 (pdftex.def)             Requested size: 352.45169pt x 195.15747pt.
 
-Overfull \hbox (10.15639pt too wide) in paragraph at lines 199--199
+Overfull \hbox (10.15639pt too wide) in paragraph at lines 211--211
 [][]  
  []
 
@@ -1207,29 +1231,22 @@ Overfull \hbox (124.16882pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-[24
+[25
 
  <./images/Montage5.png>]
-<images/Montage6.png, id=431, 1668.17041pt x 1393.99144pt>
+<images/Montage6.png, id=438, 1668.17041pt x 1393.99144pt>
 File: images/Montage6.png Graphic file (type png)
 <use images/Montage6.png>
-Package pdftex.def Info: images/Montage6.png  used on input line 202.
+Package pdftex.def Info: images/Montage6.png  used on input line 214.
 (pdftex.def)             Requested size: 266.91272pt x 223.04318pt.
 
 Overfull \hbox (124.16882pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-[25
-
- <./images/Montage6.png>]
-Overfull \hbox (124.16882pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
 [26
 
-]
+ <./images/Montage6.png>]
 Overfull \hbox (124.16882pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1244,6 +1261,27 @@ Overfull \hbox (124.16882pt too wide) has occurred while \output is active
 [28
 
 ]
+Overfull \hbox (124.16882pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[29
+
+]
+Overfull \hbox (124.16882pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[30
+
+]
+Overfull \hbox (124.16882pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[31
+
+]
 \tf@nav=\write6
 \openout6 = `Examn.nav'.
 
@@ -1253,20 +1291,20 @@ Overfull \hbox (124.16882pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `Examn.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 244.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 244.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 272.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 272.
  (Examn.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 244.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 244.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 272.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 272.
 Package rerunfilecheck Info: File `Examn.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 17520 strings out of 492945
- 334614 string characters out of 3135519
- 410821 words of memory out of 3000000
- 20940 multiletter control sequences out of 15000+200000
- 11464 words of font info for 42 fonts, out of 3000000 for 9000
+ 17535 strings out of 492945
+ 334815 string characters out of 3135519
+ 410823 words of memory out of 3000000
+ 20947 multiletter control sequences out of 15000+200000
+ 11758 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,59p,774b,678s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Pr
@@ -1274,9 +1312,9 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Examn.pdf (28 pages, 2127132 bytes).
+Output written on Examn.pdf (31 pages, 2137880 bytes).
 PDF statistics:
- 490 PDF objects out of 1000 (max. 8388607)
- 57 named destinations out of 1000 (max. 500000)
+ 510 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
  165 words of extra memory for PDF output out of 10000 (max. 10000000)
 

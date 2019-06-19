@@ -16,7 +16,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>810</x>
-      <y>270</y>
+      <y>260</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -26,20 +26,20 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>270</y>
-      <w>140</w>
+      <x>440</x>
+      <y>260</y>
+      <w>170</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 givesHistory</panel_attributes>
-    <additional_attributes>120.0;20.0;10.0;30.0</additional_attributes>
+    <additional_attributes>150.0;20.0;10.0;20.0;10.0;30.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>590</x>
-      <y>270</y>
+      <y>260</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -50,7 +50,7 @@ givesHistory</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>680</x>
-      <y>270</y>
+      <y>260</y>
       <w>150</w>
       <h>40</h>
     </coordinates>
@@ -72,14 +72,14 @@ hasMeasurement</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>460</x>
+      <x>440</x>
       <y>310</y>
-      <w>160</w>
+      <w>170</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 undergoesExamination</panel_attributes>
-    <additional_attributes>130.0;30.0;20.0;10.0</additional_attributes>
+    <additional_attributes>150.0;30.0;10.0;30.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -136,7 +136,7 @@ hasMeasurement</panel_attributes>
     </coordinates>
     <panel_attributes>lt=&lt;-
 undergoesExamination</panel_attributes>
-    <additional_attributes>170.0;80.0;10.0;10.0</additional_attributes>
+    <additional_attributes>170.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -154,19 +154,19 @@ hasMeasurement</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>420</x>
-      <y>240</y>
+      <y>210</y>
       <w>190</w>
-      <h>70</h>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 hasAge</panel_attributes>
-    <additional_attributes>170.0;10.0;10.0;50.0</additional_attributes>
+    <additional_attributes>170.0;20.0;10.0;20.0;10.0;80.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>590</x>
-      <y>220</y>
+      <y>210</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -211,7 +211,7 @@ but verbal</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>1020</x>
-      <y>260</y>
+      <y>250</y>
       <w>100</w>
       <h>40</h>
     </coordinates>
@@ -259,7 +259,7 @@ hasPresentation</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>900</x>
-      <y>270</y>
+      <y>260</y>
       <w>140</w>
       <h>40</h>
     </coordinates>

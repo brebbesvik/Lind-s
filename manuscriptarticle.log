@@ -1,0 +1,144 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.28)  20 JUN 2019 00:08
+entering extended mode
+**./manuscriptarticle.tex
+(manuscriptarticle.tex
+LaTeX2e <2018-12-01>
+("C:\Program Files\MiKTeX 2.9\tex/latex/extsizes\extarticle.cls"
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex/latex/extsizes\size20.clo"
+File: size20.clo 1999/11/11 NON-Standard LaTeX file (size option)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\exscale.sty"
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen102
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+(manuscriptarticle.aux)
+\openout1 = `manuscriptarticle.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <20.74> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+
+Overfull \hbox (1.39749pt too wide) in paragraph at lines 24--25
+[]\OT1/cmr/bx/n/20.74 Lack of self-efficacy: \OT1/cmr/m/n/20.74 they don't be-l
+ieve in them-
+ []
+
+
+Overfull \hbox (6.78683pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/20.74 selves that they ex-e-cute the in-struc-tions in the guide-
+ []
+
+[1
+
+{C:/Users/Ben/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Overfull \hbox (4.73997pt too wide) in paragraph at lines 25--27
+[]\OT1/cmr/bx/n/20.74 Inertia of pre-vi-ous prac-tice: \OT1/cmr/m/n/20.74 the c
+us-tom, habit
+ []
+
+
+Overfull \hbox (14.31035pt too wide) in paragraph at lines 31--31
+[]\OT1/cmr/bx/n/29.86 Possible asthma in pae-di-atrics
+ []
+
+[2]
+Overfull \hbox (3.48943pt too wide) in paragraph at lines 43--44
+[]\OT1/cmr/bx/n/20.74 RQ2: \OT1/cmr/m/n/20.74 Spe-cific data struc-ture for pae
+-di-atric asthma. 
+ []
+
+
+Overfull \hbox (9.3128pt too wide) in paragraph at lines 50--50
+[]\OT1/cmr/bx/n/29.86 Gamification of Clin-i-cal Prac-
+ []
+
+
+Overfull \hbox (10.01997pt too wide) in paragraph at lines 52--53
+[]\OT1/cmr/bx/n/20.74 Multiple-try with feed-back: \OT1/cmr/m/n/20.74 Mul-ti-pl
+e at-tempts
+ []
+
+[3] [4]
+Overfull \hbox (6.90192pt too wide) in paragraph at lines 61--61
+[]\OT1/cmr/bx/n/20.74 Conversation man-ager: \OT1/cmr/m/n/20.74 pro-duces ques-
+tions and
+ []
+
+
+Overfull \hbox (14.31035pt too wide) in paragraph at lines 65--65
+[]\OT1/cmr/bx/n/29.86 Possible asthma in pae-di-atrics
+ []
+
+[5] [6]
+Overfull \hbox (46.02286pt too wide) in paragraph at lines 87--87
+[]\OT1/cmr/bx/n/29.86 Making sce-nar-ios, an-swer keys,
+ []
+
+
+Overfull \hbox (46.02286pt too wide) in paragraph at lines 97--97
+[]\OT1/cmr/bx/n/29.86 Making sce-nar-ios, an-swer keys,
+ []
+
+[7] [8] [9]
+Overfull \hbox (4.03975pt too wide) in paragraph at lines 135--136
+[]\OT1/cmr/m/n/20.74 The stu-dent can fin-ish as-sess-ment, di-ag-no-sis or man
+-
+ []
+
+[10] [11] [12] [13]
+Overfull \hbox (8.13771pt too wide) in paragraph at lines 187--187
+[]\OT1/cmr/bx/n/29.86 Evaluation - Con-tri-bu-tion to
+ []
+
+[14] [15] (manuscriptarticle.aux) ) 
+Here is how much of TeX's memory you used:
+ 262 strings out of 492945
+ 5041 string characters out of 3135519
+ 61255 words of memory out of 3000000
+ 4236 multiletter control sequences out of 15000+200000
+ 5109 words of font info for 19 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 25i,4n,20p,264b,179s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+msy10.pfb>
+Output written on manuscriptarticle.pdf (15 pages, 62522 bytes).
+PDF statistics:
+ 63 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

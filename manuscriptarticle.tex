@@ -1,0 +1,196 @@
+\documentclass[20pt]{extarticle}
+
+\begin{document}
+	
+	\section{Frontpage}
+	\begin{itemize}
+		\item A mobile learning tool to train health workers and medical students.
+		\item So what is Clinical Practice Guidelines?
+	\end{itemize}
+	
+	\section{Introduction}
+	CPGS formalizes research, and is validated for use in treatment. 
+	\newline
+	Recommendations, as there are valid reasons for not always following the recommendation.
+	\begin{itemize}
+		\item Summary of the best and latest available evidence.
+		\item We are weighing benefits and harm to each other.
+		\item All patients gets the same treatment for the same condition.
+		\item Since formalized, better use of resources, work more efficient as of standardizing, reduce outlays for hospitalisation, use cheaper medicine.
+	\end{itemize}
+	
+	\section{Introduction}
+	\begin{itemize}
+		\item  \textbf{Lack of self-efficacy:} they don't believe in themselves that they execute the instructions in the guideline with high quality. 
+		\item \textbf{Inertia of previous practice:} the custom, habit or previous training
+		can hinder the adaptation of clinical practice.
+		\item Lack of outcome expectancy.  
+		\item We can address these issues with a training game.
+	\end{itemize}
+	
+	\section{Possible asthma in paediatrics - Norway}
+	\begin{itemize}
+		\item Large Guidelines. 400 pages.
+		\item This one is used for emergency clinics in Norway.
+		\item Wall of text
+		\item Symptoms left, treatment right.
+		\item Not good at point of care. We can improve.
+	\end{itemize}
+	
+	\section{Research questions}
+	\begin{itemize}
+		\item \textbf{RQ1:} Generic data structure used to implement guideline training games. Application adaptable to the level of their users.
+		\item \textbf{RQ2:} Specific data structure for paediatric asthma. 
+		\item \textbf{RQ3:} Using the specific data structure in a guideline training game, that can adapt to the level and progression of their users.
+		\item \textbf{RQ4:} Is the metamodel at an abstraction level such that it can be used to represent other guidelines such as paediatric pneumonia?
+	\end{itemize}
+	
+	\section{Approach}
+	
+	\section{Gamification of Clinical Practice Guidelines}
+	\begin{itemize}
+		\item \textbf{Multiple-try with feedback:} Multiple attempts to get a question right and the feedback is right or wrong.
+		\item \textbf{Problem with multiple-try with feedback:} bad or unmotivated students will click randomly.
+		\item \textbf{Solution:} a button where you can continue without selecting the correct answer.
+		\item \textbf{Penalty and reward:} small penalty and large reward motivates to revise an incorrect answer.
+	\end{itemize}
+	
+	\section{Architecture}
+	\begin{itemize}
+		\item \textbf{Question flow manager:} adapts the questions to the level of the student. It is flexible such that the student can choose his own way through the learning material. It controls the flow of the questions.
+		\item \textbf{Conversation manager:} produces questions and answer keys from a template, in which the entity model is used to fill in data for the place holders in the template.
+		\item \textbf{User manager:} keeps track of the user's skill, based on the performance on previous quizzes. It holds the scores for the current quiz, and it measures the user's progression.
+	\end{itemize}
+	
+	\section{Possible asthma in paediatrics - Kenya}
+	\begin{itemize}
+		\item Assessment, get an idea of what diagnosis a patient may have.
+		\item Diagnosis, strengthen your assumption and pick a severity.
+		\item Management, treatment and procedure.
+		\item Evaluation and act on the evaluation.
+		\item What the patient should do on his own and follow-up.
+	\end{itemize}
+	
+	\section{Workflow graph}
+	\begin{itemize}
+		\item It's the flow of the clinical encounter.
+		\item Based on the guideline.
+	\end{itemize}
+
+	\section{Excerpt of the entity graph}
+	\begin{itemize}
+		\item This is a skeleton, an excerpt to keep the complexity down and keep it more compact.
+		\item It represents the patient at a given time in the clinical encounter.
+		\item You give the patient medication, and hopefully the symptoms in the graph has changed when you evaluate.
+	\end{itemize}
+
+	\section{Making scenarios, answer keys, distractions}
+	\textbf{Conversation manager}
+	\begin{itemize}
+		\item Detail level of the entity graph (patient).
+		\item We are using templates to create narratives.
+		\item Tags refer to vertices in the graph. Both in template and answer key.
+		\item Can use the same template with other graphs to make new narratives with matching answer key.
+		\item Can also reuse the graph on other templates.
+	\end{itemize}
+
+	\section{Making scenarios, answer keys, distractions}
+	\textbf{Problem:} The values can't be directly printed in the narrative. What is 24? What is True? V?
+
+	\section{Making scenarios}
+	\begin{itemize}
+		\item Attach a presentation vertex to all values.
+		\item If a vertex doesn't have a presentation, simply return the value.
+	\end{itemize}
+
+	\section{Entity- and workflow model working together}
+	Patient has mild or moderate asthma. Treat with oxygen and salbutamol.
+
+	\section{Entity- and workflow model working together}
+	Patient shows no symptoms of asthma. Send patient home on salbutamol.
+
+	\section{Dynamic Content Management}
+	\textbf{Question flow manager}
+	\begin{itemize}
+		\item A way to control the content flow in the application.
+		\item Instead of every student going through the same learning material in the same way, we try to adapt it to the individual learner.
+	\end{itemize}
+
+	\section{Dynamic Content Management}
+	\begin{itemize}
+		\item We split the content in relation to the clinical encounter (workflow model).
+	\end{itemize}
+
+	\section{Dynamic Content Management}
+	We have identified
+	\begin{itemize}
+		\item  the knowledge units.
+		\item the dependency between the knowledge units.
+		\item expressed the dependency as a prerequisite.
+	\end{itemize}
+	Need to learn how to diagnose and treat a patient, before you can evaluate the treatment and act.
+
+	\section{Dynamic Content Management}
+	\begin{itemize}
+		\item The student can finish assessment, diagnosis or management in any order he wants.
+		\item Have to complete all categories at one level to be able to progress to the next level.
+		\item The detail level of the questions increases for each level.
+		\item Demonstrate learning map and student map. 
+	\end{itemize}
+
+	\section{Demonstration}
+	\begin{itemize}
+		\item Pick a quiz.
+		\item The difficulties shows where the student is in the learning map.
+	\end{itemize}
+
+	\section{Demonstration}
+	\begin{itemize}
+		\item Scenario.
+		\item Assessment.
+		\item Multiple choice.
+		\item Feedback.
+		\item Shows an explanation when correct.
+		\item Wheeze.
+	\end{itemize}
+
+	\section{Demonstration}
+	\begin{itemize}
+		\item The scenario continues.
+		\item Diagnosis.
+		\item Oxygen saturation <90\%
+	\end{itemize}
+
+	\section{Demonstration}
+	\begin{itemize}
+		\item Management.
+		\item Prednisolone and oxygen.
+	\end{itemize}
+
+	\section{Demonstration}
+	\begin{itemize}
+		\item Follow-up. Asks about prednisolone.
+		\item Can try again. Gets penalty for every wrong attempt.
+		\item Can choose to give up, see the answer and continue, but looses the reward.
+		\item We want the user to encourage the user to revise the question.
+		\item 5 days.
+	\end{itemize}
+
+	\section{Demonstration}
+	\begin{itemize}
+		\item We did very well and our position in the learning map is updated.
+		\item We still have to redo follow-up before we can continue to level 3.
+		\item The graph shows the score in each individual category as bars. The line is the passing condition in each category.
+		\item We didn't pass follow-up.
+	\end{itemize}
+
+	\section{Evaluation - Contribution to medical domain}
+	
+	\section{Evaluation - Research questions}
+
+	\section{Research paper}
+
+	\section{State of the art}
+
+	\section{Related work}
+\end{document}
