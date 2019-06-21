@@ -16,3 +16,5 @@ Bruk av SNOMED-CT og UMLS
 Bruk av templates med placeholders
 
 Fire medical templates er brukt. What is the most likely diagnosis. What is the drug of choice. What is the most likely clinical finding. What is the differential diagnosis.
+
+Difficulty calculator

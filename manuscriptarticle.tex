@@ -41,19 +41,38 @@
 	\begin{itemize}
 		\item \textbf{RQ1:} Generic data structure used to implement guideline training games. Application adaptable to the level of their users.
 		\item \textbf{RQ2:} Specific data structure for paediatric asthma. 
-		\item \textbf{RQ3:} Using the specific data structure in a guideline training game, that can adapt to the level and progression of their users.
+		\item \textbf{RQ3:} Can the specific data structure be used to implement guideline training games that can adapt to the level and progression of their users.
 		\item \textbf{RQ4:} Is the metamodel at an abstraction level such that it can be used to represent other guidelines such as paediatric pneumonia?
 	\end{itemize}
 	
-	\section{Approach}
+	\section{Research method}
 	
-	\section{Gamification of Clinical Practice Guidelines}
+		\section{Gamification of Clinical Practice Guidelines}
+	The artefact will be using a multiple-try with feedback, which is a quiz approach.
 	\begin{itemize}
 		\item \textbf{Multiple-try with feedback:} Multiple attempts to get a question right and the feedback is right or wrong.
 		\item \textbf{Problem with multiple-try with feedback:} bad or unmotivated students will click randomly.
 		\item \textbf{Solution:} a button where you can continue without selecting the correct answer.
 		\item \textbf{Penalty and reward:} small penalty and large reward motivates to revise an incorrect answer.
 	\end{itemize}
+	
+	\section{Related work: MDE gamification of CPGs}
+	\begin{itemize}
+		\item \textbf{Ontology-Based Generation of Medical, Multi-term MCQs:} using four templates, they are able to automatically generate more than 3 million questions using a variety of techniques. The questions were evaluated by 15 medical experts. 30\% of the questions were found appropriate by two experts to be used in exams. 
+		
+		Question difficulty, discrimination and guessability are identified through statistical analysis of responses to a particular question. They introduced a difficulty calculator.
+		
+		The detail level of our entity model allows us to make more templates. We have the workflow model, which models the flow of the clinical encounter. We have DCM to adapt the questions to the level of the student, and flexible such that the student can go through the learning material in several different ways. More focus on gamification such that multiple-try questions with feedback.
+		
+		\item \textbf{Models and mechanisms for implementing playful scenarios:} have made a scenario build approach based on model driven architecture. The game include health course with demonstrative videos, evaluation quizzes and 3D games. They use a platform independent platform, which can be transformed into a platform specific model. 
+		
+		They lack modularization and separation of concerns. We use multilevel metamodelling and integration of different modelling hierarchies which allows us to artciulate various aspects of an e-learning system.
+	\end{itemize}
+
+\section{Related work: modelling}
+Articles that our work has been built upon. More can be read there.
+	
+
 	
 	\section{Architecture}
 	\begin{itemize}
@@ -141,6 +160,7 @@
 	\section{Demonstration}
 	\begin{itemize}
 		\item Pick a quiz.
+		\item Jaundice and Malaria are dummies.
 		\item The difficulties shows where the student is in the learning map.
 	\end{itemize}
 
@@ -158,7 +178,7 @@
 	\begin{itemize}
 		\item The scenario continues.
 		\item Diagnosis.
-		\item Oxygen saturation <90\%
+		\item Oxygen saturation $<$90\%
 	\end{itemize}
 
 	\section{Demonstration}
@@ -184,13 +204,50 @@
 		\item We didn't pass follow-up.
 	\end{itemize}
 
+\section{Modelling paediatric pneumonia}
+\begin{itemize}
+	\item Here we have demonstrated that the model can be used to represent other respiratory diseases such as paediatric pneumonia.
+	\item We had to modify the model to support several diagnosis. The treatment will vary depending on which other diagnosis the patient has.
+	\item \textbf{Differential diagnosis.}
+	\item Workflow model is identical to the one for paediatric possible asthma.
+	\item This proves that our generic model can act as a stepping stone to model other clinical guidelines.
+\end{itemize}
+
 	\section{Evaluation - Contribution to medical domain}
+	\begin{itemize}
+		\item Nurses did play a level because of limited time.
+		\item Medical doctors played the whole game and we could see how the game adapted to the knowledge and progression of the users.
+		\item The details missed where details in the questions. Such that this is children and this is in the emergency clinic.
+	\end{itemize}
 	
 	\section{Evaluation - Research questions}
+	\begin{itemize}
+		\item Generic data structure.
+		\item Specific data structure.
+		\item Adaptable to the knowledge and progression of the users.
+		\item Can represent other clinical guidelines such as paediatric pneumonia.
+	\end{itemize}
+
+\section{Research method}
+\begin{itemize}
+	\item Design science was the right methodology for us.
+	\item Artefact that solves an institutional problem.
+	\item Contribution to the medical community as well as contribution to health informatics. 
+\end{itemize}
+
+\section{Contribution to medical domain}
+A mobile training game can address the challenges listed by Cabana.
+
+\section{Future work}
+\begin{itemize}
+	\item One entity instance has to be defined by hundreds of lines of JSON-code. One scenario needs at least two entity instances. We will also avoid that the students memorizes questions and answers rather than having compiled domain knowledge, because of few questions. Should be able to auto generate entity instances.
+	\item A teacher or institution can monitor the progression of many students. Can articulate learning material which the students struggle with.
+	\item Details from textual questions were missed. Clinicians need to observe the patient and listen to sounds when examining the patient. This should be supported by the use of pictures, sounds and videos in the questions.
+\end{itemize}
 
 	\section{Research paper}
 
-	\section{State of the art}
 
-	\section{Related work}
+
+
 \end{document}

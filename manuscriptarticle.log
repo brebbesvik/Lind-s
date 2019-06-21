@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.28)  20 JUN 2019 00:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.28)  20 JUN 2019 22:58
 entering extended mode
 **./manuscriptarticle.tex
 (manuscriptarticle.tex
@@ -85,60 +85,82 @@ Overfull \hbox (9.3128pt too wide) in paragraph at lines 50--50
 []\OT1/cmr/bx/n/29.86 Gamification of Clin-i-cal Prac-
  []
 
-
-Overfull \hbox (10.01997pt too wide) in paragraph at lines 52--53
+[3]
+Overfull \hbox (10.01997pt too wide) in paragraph at lines 53--54
 []\OT1/cmr/bx/n/20.74 Multiple-try with feed-back: \OT1/cmr/m/n/20.74 Mul-ti-pl
 e at-tempts
  []
 
-[3] [4]
-Overfull \hbox (6.90192pt too wide) in paragraph at lines 61--61
+
+Overfull \hbox (45.29271pt too wide) in paragraph at lines 61--62
+[]\OT1/cmr/bx/n/20.74 Ontology-Based Gen-er-a-tion of Med-i-cal, Multi-
+ []
+
+[4]
+Overfull \hbox (7.95534pt too wide) in paragraph at lines 63--64
+\OT1/cmr/m/n/20.74 are iden-ti-fied through sta-tis-ti-cal anal-y-sis of re-spo
+nses
+ []
+
+
+Overfull \hbox (0.3685pt too wide) in paragraph at lines 65--66
+\OT1/cmr/m/n/20.74 make more tem-plates. We have the work-flow model,
+ []
+
+[5] [6]
+Overfull \hbox (6.90192pt too wide) in paragraph at lines 80--80
 []\OT1/cmr/bx/n/20.74 Conversation man-ager: \OT1/cmr/m/n/20.74 pro-duces ques-
 tions and
  []
 
 
-Overfull \hbox (14.31035pt too wide) in paragraph at lines 65--65
+Overfull \hbox (31.1066pt too wide) in paragraph at lines 84--84
 []\OT1/cmr/bx/n/29.86 Possible asthma in pae-di-atrics
  []
 
-[5] [6]
-Overfull \hbox (46.02286pt too wide) in paragraph at lines 87--87
+[7] [8]
+Overfull \hbox (46.02286pt too wide) in paragraph at lines 106--106
 []\OT1/cmr/bx/n/29.86 Making sce-nar-ios, an-swer keys,
  []
 
-
-Overfull \hbox (46.02286pt too wide) in paragraph at lines 97--97
+[9]
+Overfull \hbox (46.02286pt too wide) in paragraph at lines 116--116
 []\OT1/cmr/bx/n/29.86 Making sce-nar-ios, an-swer keys,
  []
 
-[7] [8] [9]
-Overfull \hbox (4.03975pt too wide) in paragraph at lines 135--136
+[10] [11]
+Overfull \hbox (4.03975pt too wide) in paragraph at lines 154--155
 []\OT1/cmr/m/n/20.74 The stu-dent can fin-ish as-sess-ment, di-ag-no-sis or man
 -
  []
 
-[10] [11] [12] [13]
-Overfull \hbox (8.13771pt too wide) in paragraph at lines 187--187
+[12] [13] [14] [15] [16]
+Overfull \hbox (8.13771pt too wide) in paragraph at lines 216--216
 []\OT1/cmr/bx/n/29.86 Evaluation - Con-tri-bu-tion to
  []
 
-[14] [15] (manuscriptarticle.aux) ) 
+
+Overfull \hbox (4.4031pt too wide) in paragraph at lines 219--220
+[]\OT1/cmr/m/n/20.74 Medical doc-tors played the whole game and we could
+ []
+
+[17] [18] [19] [20] (manuscriptarticle.aux) ) 
 Here is how much of TeX's memory you used:
- 262 strings out of 492945
- 5041 string characters out of 3135519
+ 274 strings out of 492945
+ 5214 string characters out of 3135519
  61255 words of memory out of 3000000
- 4236 multiletter control sequences out of 15000+200000
- 5109 words of font info for 19 fonts, out of 3000000 for 9000
+ 4246 multiletter control sequences out of 15000+200000
+ 7965 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 25i,4n,20p,264b,179s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-msy10.pfb>
-Output written on manuscriptarticle.pdf (15 pages, 62522 bytes).
+ 25i,4n,20p,414b,179s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb>
+Output written on manuscriptarticle.pdf (20 pages, 77170 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
+ 83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
